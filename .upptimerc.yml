@@ -1,31 +1,30 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: AnnAngela
+repo: annangela.cn-monitor
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: AnnAngela.cn
+    url: https://ping.annangela.cn
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.annangela.cn
+  logoUrl: https://static.annangela.cn/icon.png
+  theme: light
+  apiBaseUrl: https://raw.fastgit.org
+  name: AnnAngela.cn Status Monitor
+  introTitle: "AnnAngela.cn Status Monitor"
+  introMessage: Generated from [GitHub repository upptime/upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - AnnAngela
+
+workflowSchedule: #                suitable for Asia/Shanghai time zone 
+  graphs: "30 17 * * *" #          original is 00:00 UTC, now is 01:30 CST
+  responseTime: "0 18 * * *" #     original is 23:00 UTC, now is 02:00 CST
+  staticSite: "30 18 * * *" #      original is 01:00 UTC, now is 02:30 CST
+  summary: "0 19 * * *" #          original is 00:00 UTC, now is 03:00 CST
+  updateTemplate: "30 19 * * *" #  original is 00:00 UTC, now is 03:30 CST
+  updates: "0 20 * * *" #          original is 03:00 UTC, now is 04:00 CST
+  uptime: "*/5 * * * *" #          NOT CHANGED
