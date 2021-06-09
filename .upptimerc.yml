@@ -9,12 +9,12 @@ sites:
 status-website:
   cname: status.annangela.cn
   icon: https://static.annangela.cn/favicon.ico
-  logoUrl: https://static.annangela.cn/icon.png
+  logoUrl: https://static.annangela.cn/icon.jpg
   theme: light
   # apiBaseUrl: https://hub.fastgit.org/
   name: AnnAngela.cn Status Monitor
   introTitle: "AnnAngela.cn Status Monitor"
-  introMessage: Generated from [GitHub repository upptime/upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: "Generated from [GitHub repository upptime/upptime](https://github.com/upptime/upptime).<br>No server required — just GitHub Actions, Issues, and Pages."
   navbar:
     - title: Status
       href: /
