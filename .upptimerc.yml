@@ -4,9 +4,11 @@ repo: annangela.cn-monitor
 sites:
   - name: AnnAngela.cn
     url: https://ping.annangela.cn
+    icon: https://static.annangela.cn/favicon.ico
 
 status-website:
   cname: status.annangela.cn
+  icon: https://static.annangela.cn/favicon.ico
   logoUrl: https://static.annangela.cn/icon.png
   theme: light
   # apiBaseUrl: https://hub.fastgit.org/
