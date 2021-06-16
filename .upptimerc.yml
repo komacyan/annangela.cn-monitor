@@ -22,6 +22,8 @@ status-website:
 assignees:
   - AnnAngela
 
+runner: self-hosted
+
 workflowSchedule: #                suitable for Asia/Shanghai time zone 
   graphs: "30 17 * * *" #          original is 00:00 UTC, now is 01:30 CST
   responseTime: "0 18 * * *" #     original is 23:00 UTC, now is 02:00 CST
