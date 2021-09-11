@@ -4,7 +4,7 @@
     "url": "https://ping.annangela.cn",
     "icon": "https://static.annangela.cn/favicon.ico",
     "slug": "ann-angela-cn",
-    "status": "up",
+    "status": "down",
     "uptime": "99.19%",
     "uptimeDay": "94.32%",
     "uptimeWeek": "95.88%",
@@ -16,6 +16,7 @@
     "timeMonth": 921,
     "timeYear": 870,
     "dailyMinutesDown": {
+      "2021-09-11": 0,
       "2021-09-10": 82,
       "2021-09-09": 217,
       "2021-09-08": 116,
